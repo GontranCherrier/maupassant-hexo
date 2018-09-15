@@ -6,6 +6,8 @@
  * @link http://chopstack.com
  */
 
+$font: FontAwesome, Helvetica Neue, Helvetica, Arial, sans-serif;
+
 /*
 pure css setting
 When setting the primary font stack, apply it to the Pure grid units along
@@ -16,13 +18,13 @@ html, button, input, select, textarea,
 .MJXc-TeX-unknown-R,
 .pure-g [class *= "pure-u"] {
     /* Set your content font stack here: */
-    font-family: "PingFangSC-Regular", Helvetica, "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", sans-serif !important;
+    font-family: $font;
 }
 
 body {
     background-color: #FFF;
     color: #444;
-    font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-family: $font;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 14px;
@@ -71,7 +73,7 @@ div {
             overflow: hidden;
         }
         #logo {
-            font: bold 38px/1.12 "Times New Roman", Georgia, Times, sans-serif;
+            font: bold 38px/1.12 $font;
             color: #555;
             span, &:hover {
                 color: #777;
@@ -194,7 +196,7 @@ div {
         margin: 0;
         color: #555;
         text-align: left;
-        font: bold 25px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
+        font: bold 25px/1.1 $font;
         a {
             color: #555;
         }
@@ -207,20 +209,20 @@ div {
         display: inline;
         text-indent: .15em;
         &:before {
-              font-family: "FontAwesome";
+              font-family: $font;
               content: "\f073";
               padding-right: 0.3em;
         }
         .category {
             &:before {
-              font-family: "FontAwesome";
+              font-family: $font;
               content: "\f07c";
               padding-right: 0.3em;
             }
         }
         #busuanzi_value_page_pv {
             &:before {
-              font-family: "FontAwesome";
+              font-family: $font;
               content: "\f024";
               padding-right: 0.3em;
             }
@@ -234,7 +236,7 @@ div {
         display: inline;
         text-indent: .15em;
         &:before {
-          font-family: "FontAwesome";
+          font-family: $font;
           content: "\f0e5";
           padding-right: 0.3em;
         }
@@ -250,7 +252,7 @@ div {
         display: inline;
         text-indent: .15em;
         &:before {
-          font-family: "FontAwesome";
+          font-family: $font;
           content: "\f0e5";
           padding-right: 0.3em;
         }
@@ -344,7 +346,7 @@ div {
         a {
             margin-right: .5em;
             &:before {
-                font-family: "FontAwesome";
+                font-family: $font;
                 content: "\f0c6";
                 padding-right: 0.3em;
             }
@@ -419,7 +421,7 @@ div {
     padding-bottom: .8em;
     h2 {
         margin: 0;
-        font: bold 25px / 1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
+        font: bold 25px / 1.1 $font;
     }
     .date {
         padding-right: .7em;
@@ -1480,7 +1482,7 @@ figure.highlight,
         &.pre {
             float: left;
             &:before {
-              font-family: "FontAwesome";
+              font-family: $font;
               content: "\f0d9";
               padding-right: 0.3em;
             }
@@ -1488,7 +1490,7 @@ figure.highlight,
         &.next {
             float: right;
             &:after {
-              font-family: "FontAwesome";
+              font-family: $font;
               content: "\f0da";
               padding-left: 0.3em;
             }
@@ -1557,7 +1559,7 @@ table {
   float: right;
   margin-left: 20px;
   &:before {
-    font-family: "FontAwesome";
+    font-family: $font;
     content: "\f064";
     padding-right: 6px;
   }
@@ -1606,7 +1608,7 @@ table {
     text-shadow: 0 1px #fff;
     &:before {
       font-size: 20px;
-      font-family: "FontAwesome";
+      font-family: $font;
       width: 20px;
       height: 20px;
       position: absolute;
