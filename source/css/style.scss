@@ -290,7 +290,8 @@ div {
                 font-family: Menlo, Consolas, monospace !important;
             }
             a {
-                color: #01579f;
+                color: #1e88e5 /* material blue 600 */;
+                font-weight: bold;
                 padding-bottom: 2px;
                 word-break: normal;
                 &:hover {
@@ -332,7 +333,8 @@ div {
                 font-family: Menlo, Consolas, monospace !important;
             }
             a {
-                color: #01579f;
+                color: #1e88e5 /* material blue 600 */;
+                font-weight: bold;
                 padding-bottom: 2px;
                 word-break: normal;
                 &:hover {
